@@ -1,0 +1,44 @@
+:root {
+    --primary: #6D813B;
+    --secondary: #E1BF55;
+    --text: #3A3A3A ;
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 2px var(--primary) solid;
+}
+nav .nav-left{
+    padding: 5px;
+}
+nav .nav-logo{
+    width: 150px;
+}
+nav .nav-center{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    align-items: center;
+}
+.nav-tab{
+    font-size: 20px;
+    font-weight: 500;
+    color:var(--primary);
+    transition: 0.3s;
+}
+.nav-tab:hover{
+    color:var(--secondary);
+    cursor: pointer;
+
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 1rem;
+}
