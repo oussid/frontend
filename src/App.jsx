@@ -5,6 +5,7 @@ import Public from './layouts/Public'
 import Admin from './layouts/Admin'
 import APropos from './pages/apropos/APropos'
 import NoProjets from './pages/nosprojets/NoProjets'
+import Projet from './pages/projet/Projet'
 function App() {
 
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route  path='/' element={<Public/>}>
           <Route index element={<Home />} />
           <Route path='a_propos_de_nous' element={<APropos/>} />
-          <Route path='nos_projets' element={<NoProjets/>} />
+          <Route path='nos_projets/' element={<NoProjets/>} />
+          <Route path='nos_projets/:id' element={<Projet/>} />
         </Route>
       </Routes>
     </div>
