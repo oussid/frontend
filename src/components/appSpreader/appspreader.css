@@ -1,0 +1,68 @@
+.appSpreader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+.appSpreader{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.app-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+    transition: ease-in-out 0.2s;
+    border-radius: 6px;
+    
+}
+.app-card:hover{
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.app-img{
+    width: 300px;
+    height: 200px;
+}
+.app-img>img{
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+}
+.app-city{
+    font-size: 20px;
+    font-style: italic;
+    color: var(--text);
+    opacity: 0.6;
+    padding-top:0.5rem ;
+}
+.app-price{
+    font-size: 25px;
+    color: var(--secondary);
+    padding:0.5rem  0rem;
+}
+.app-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
+    padding: 0.5rem;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    background: none;
+    border-radius:3px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.app-btn:hover{
+    color: var(--secondary);
+    background: var(--primary);
+}

@@ -1,0 +1,24 @@
+.admin-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .admin-sidebar{
+    display: flex;
+    flex: .2;
+    height: 100vh;
+    background: aqua;
+} */
+.admin-right-view{
+    display: flex;
+    flex: .8;
+    height: 100vh;
+    border: aqua;
+    flex-direction: column;
+}
+.admin-nav{
+    
+}
+.admin-main{
+    overflow-y: scroll;
+}
