@@ -25,6 +25,15 @@ function App() {
           <Route path='nos_projets/:id' element={<Projet/>} />
           <Route path='rendez_vous/' element={<RendezVous/>} />
         </Route>
+
+        <Route  path='/admin' element={<Admin />}>
+          <Route path='accueil' element={<Dashboard/>} />
+          <Route path='projets' element={<Projets/>} />
+          <Route path='appartements' element={<Apartments/>} />
+          <Route path='employees' element={<Employees/>} />
+        </Route>
+
+        <Route path='*' element={<Notfound/>}/>
       </Routes>
     </div>
   )
