@@ -8,6 +8,9 @@ import Projets from './views/admin-main/Projects'
 import Apartments from './views/admin-main/Apartments'
 import Employees from './views/admin-main/Employees'
 import Notfound from './views/notfound/Notfound'
+import APropos from './pages/apropos/APropos'
+import NoProjets from './pages/nosprojets/NoProjets'
+import Projet from './pages/projet/Projet'
 
 function App() {
   
@@ -15,8 +18,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route  path='/' element={<Public/>}>
+      <Route  path='/' element={<Public/>}>
           <Route index element={<Home />} />
+          <Route path='a_propos_de_nous' element={<APropos/>} />
+          <Route path='nos_projets/' element={<NoProjets/>} />
+          <Route path='nos_projets/:id' element={<Projet/>} />
         </Route>
         <Route  path='/admin' element={<Admin />}>
           <Route path='accueil' element={<Dashboard/>} />
@@ -24,6 +30,7 @@ function App() {
           <Route path='appartements' element={<Apartments/>} />
           <Route path='employees' element={<Employees/>} />
         </Route>
+        
         <Route path='*' element={<Notfound/>}/>
       </Routes>
     </div>
