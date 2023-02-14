@@ -11,7 +11,7 @@ import Notfound from './views/notfound/Notfound'
 import APropos from './pages/apropos/APropos'
 import NoProjets from './pages/nosprojets/NoProjets'
 import Projet from './pages/projet/Projet'
-
+import RendezVous from './pages/rendezVous/RendezVous'
 function App() {
   
 
@@ -23,15 +23,8 @@ function App() {
           <Route path='a_propos_de_nous' element={<APropos/>} />
           <Route path='nos_projets/' element={<NoProjets/>} />
           <Route path='nos_projets/:id' element={<Projet/>} />
+          <Route path='rendez_vous/' element={<RendezVous/>} />
         </Route>
-        <Route  path='/admin' element={<Admin />}>
-          <Route path='accueil' element={<Dashboard/>} />
-          <Route path='projets' element={<Projets/>} />
-          <Route path='appartements' element={<Apartments/>} />
-          <Route path='employees' element={<Employees/>} />
-        </Route>
-        
-        <Route path='*' element={<Notfound/>}/>
       </Routes>
     </div>
   )
