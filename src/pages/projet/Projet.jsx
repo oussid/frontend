@@ -27,7 +27,7 @@ export default function Projet() {
           <Link className='banner-item-tab'><GiEntryDoor size={'2rem'}/>Plan d'accès</Link>
       </div>
       <div className='banner-section'>
-        <Banner img={'https://cdn.pixabay.com/photo/2016/11/21/15/09/apartments-1845884__340.jpg'} title={'Dyar Nazha'}/>
+        <Banner img={'https://cdn.pixabay.com/photo/2016/11/21/15/09/apartments-1845884__340.jpg'} title={'Dyar Nazha'} subtitle={'DÉCOUVREZ À AGADIR'}/>
       </div>
     </div>
     <div className='banner-footer'>Appartements économiques <h3 className='banner-project-title'>Dyar Nazha</h3></div>
