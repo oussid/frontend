@@ -1,0 +1,46 @@
+.banner-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    flex: 0.2;
+    background-color: var(--primary);
+}
+.banner-section{
+    flex: 0.8;
+}
+.banner-item-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    color: white;
+    text-decoration: none;
+
+}
+.banner-item-tab:hover{
+    cursor: pointer;
+    color: var(--secondary);
+    transform: scale(1.5)skewY(10deg);
+}
+.banner-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    height: 150px;
+    font-size: 20px;
+    color: white;
+    padding: 2rem;
+    gap: 1rem;
+}
+.banner-project-title{
+    color: white;
+    font-size: 30px;
+}
