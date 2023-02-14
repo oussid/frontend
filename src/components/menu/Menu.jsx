@@ -15,7 +15,7 @@ function toggleMenuClass(){
     <>
     <nav>
       <div className='nav-left'>
-      <img className='nav-logo' src={'/images/logo-gold-nobg.png'} alt="logo" />
+      <Link to='/'><img className='nav-logo' src={'/images/logo-gold-nobg.png'} alt="logo" /></Link>
       </div> 
       <div className='nav-center'>
         <Link className='nav-tab' to={'a_propos_de_nous'}>A propos de nous</Link>

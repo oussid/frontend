@@ -49,7 +49,6 @@ export default function Home() {
     */}
     <AppSpreader apps={apps}/>
     <CallToAction/>
-    <Footer/>
     </>
   )
 }
