@@ -1,20 +1,23 @@
 import React from 'react'
-import { Link, Outlet, useParams } from 'react-router-dom'
-import Sidebar from '../components/sidebar/Sidebar'
+import { Link, Navigate, Outlet, useParams } from 'react-router-dom'
+import AdminNav from '../../components/admin-nav/AdminNav'
+import Sidebar from '../../components/sidebar/Sidebar'
 import './admin.css'
 
 export default function Admin() {
 
-    const title = useParams().title
   return (
     <div className='admin-container'>
         <Sidebar/>
+
         <div className='admin-right-view'>
-            <div className='admin-nav'>
-                <div className='admin-nav-title'>{title}</div>
-            </div>
+            <AdminNav/>
+
             <div className="admin-main">
                 <Outlet/>
+                <div className="test">
+                    
+                </div>
             </div>
         </div>
     </div>

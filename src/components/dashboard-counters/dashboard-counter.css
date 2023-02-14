@@ -1,0 +1,51 @@
+.admin-dashboard-squares{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;  
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+.admin-dashboard-square{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    /* min-width: 15rem; */
+    background-color: #fff;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.admin-dashboard-square:hover{
+    background-color: var(--secondary);
+}
+
+/* change text and icon color to white on hover  */
+.admin-dashboard-square:hover .dashboard-square-left-number,  .admin-dashboard-square:hover .dashboard-square-left-name, .admin-dashboard-square:hover .dashboard-square-right svg{
+    color: #fff;
+}
+
+.dashboard-square-left{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.dashboard-square-left-number{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.dashboard-square-left-name{
+    color: var(--text);
+    font-size: .8rem;
+}
+
+.dashboard-square-right{
+    color: var(--secondary);
+}

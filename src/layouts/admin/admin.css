@@ -1,0 +1,26 @@
+.admin-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+.admin-right-view{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-main{
+    width: 100%;
+    height: 100%;
+    background-color: #F1F4F9;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem .3rem;
+}
+
