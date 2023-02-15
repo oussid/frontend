@@ -59,6 +59,7 @@
 
 .order-item-name{
     color: var(--text);
+    font-weight: 500;
 }
 
 .order-hidden-area .order-apply-btn{

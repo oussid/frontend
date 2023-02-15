@@ -5,108 +5,108 @@ export default function Employees() {
   const employees = [
     {
       id: 0,
-      name: "John",
-      email: "john@gmail.com",
-      age: 30,
-      city: "New York"
+      nom: "Mohamed Benali",
+      email: "mohamed.benali@example.com",
+      age: 26,
+      ville: "Tanger"
     },
     {
       id: 1,
-      name: "Emily",
-      email: "emily@gmail.com",
-      age: 25,
-      city: "Los Angeles"
+      nom: "Fatima Zohra El Amrani",
+      email: "fatimazohra.elamrani@example.com",
+      age: 28,
+      ville: "Casablanca"
     },
     {
       id: 2,
-      name: "Michael",
-      email: "michael@gmail.com",
-      age: 35,
-      city: "Chicago"
+      nom: "Karim El Fakir",
+      email: "karim.elfakir@example.com",
+      age: 32,
+      ville: "Rabat"
     },
     {
       id: 3,
-      name: "Sarah",
-      email: "sarah@gmail.com",
-      age: 28,
-      city: "Houston"
+      nom: "Sanaa Zaidi",
+      email: "sanaa.zaidi@example.com",
+      age: 24,
+      ville: "Fès"
     },
     {
       id: 4,
-      name: "David",
-      email: "david@gmail.com",
-      age: 32,
-      city: "Philadelphia"
+      nom: "Youssef Chraibi",
+      email: "youssef.chraibi@example.com",
+      age: 29,
+      ville: "Marrakech"
     },
     {
       id: 5,
-      name: "Jessica",
-      email: "jessica@gmail.com",
-      age: 27,
-      city: "San Francisco"
+      nom: "Nadia Mounir",
+      email: "nadia.mounir@example.com",
+      age: 30,
+      ville: "Agadir"
     },
     {
       id: 6,
-      name: "Christopher",
-      email: "christopher@gmail.com",
-      age: 31,
-      city: "Seattle"
+      nom: "Adil Bourkia",
+      email: "adil.bourkia@example.com",
+      age: 27,
+      ville: "Tétouan"
     },
     {
       id: 7,
-      name: "Amanda",
-      email: "amanda@gmail.com",
-      age: 29,
-      city: "Boston"
+      nom: "Samira El Khattabi",
+      email: "samira.elkhattabi@example.com",
+      age: 35,
+      ville: "Meknès"
     },
     {
       id: 8,
-      name: "Matthew",
-      email: "matthew@gmail.com",
+      nom: "Saidi Rida",
+      email: "saidi.rida@example.com",
       age: 34,
-      city: "Dallas"
+      ville: "Taza"
     },
     {
       id: 9,
-      name: "Katherine",
-      email: "katherine@gmail.com",
-      age: 26,
-      city: "Denver"
+      nom: "Noureddine El Boukhari",
+      email: "noureddine.elboukhari@example.com",
+      age: 25,
+      ville: "Oujda"
     },
     {
       id: 10,
-      name: "Robert",
-      email: "robert@gmail.com",
-      age: 33,
-      city: "Miami"
+      nom: "Rabiaa Ait Ali",
+      email: "rabiaa.aitali@example.com",
+      age: 36,
+      ville: "Béni Mellal"
     },
     {
       id: 11,
-      name: "Stephanie",
-      email: "stephanie@gmail.com",
-      age: 30,
-      city: "Atlanta"
+      nom: "Naima Aouadi",
+      email: "naima.aouadi@example.com",
+      age: 31,
+      ville: "Moulay Yacoub"
     },
     {
       id: 12,
-      name: "Daniel",
-      email: "daniel@gmail.com",
-      age: 28,
-      city: "Austin"
+      nom: "Amine Belkadi",
+      email: "amine.belkadi@example.com",
+      age: 33,
+      ville: "Safi"
     },
     {
       id: 13,
-      name: "Elizabeth",
-      email: "elizabeth@gmail.com",
-      age: 31,
-      city: "Phoenix"
+      nom: "Kamal Laaroussi",
+      email: "kamal.laaroussi@example.com",
+      age: 37,
+      ville: "Essaouira"
     },
     {
       id: 14,
-      name: "William",
-      email: "william@gmail.com",
-      age: 29,
-      city: "Portland"
+      nom: "Ibtissam Benkiran",
+      email: "ibtissam.benkiran@example.com",
+      age: 26,
+      ville: "Ouarzazate"
     }
   ];
   return (

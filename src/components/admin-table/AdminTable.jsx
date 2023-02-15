@@ -10,9 +10,9 @@ export default function AdminTable(props) {
     <>
     <div className="admin-table-upper">
     <Filter orderItems={headerColumns}/>
-    <div className="admin-table-create">
-      create new
-    </div>
+    <button className="admin-table-create-btn">
+      Ajouter
+    </button>
     </div>
 
     <div className="admin-table">
@@ -44,6 +44,7 @@ export default function AdminTable(props) {
                 <td className='admin-actions-column'>
                   <button className='edit-btn'>Edit</button>
                   <button className='delete-btn'>Delete</button>
+                  <button className='details-btn'>Details</button>
                 </td>
             </tr>
 

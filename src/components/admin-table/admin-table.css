@@ -56,6 +56,10 @@
     background-color: var(--danger);
 }
 
+.admin-table tbody .admin-actions-column .details-btn{
+    background-color: gray;
+}
+
 /* click */
 .admin-table tbody .admin-actions-column .delete-btn:active{
     background-color: var(--danger-click);
@@ -82,4 +86,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.admin-table-create-btn{
+    border: solid 2px var(--primary);
+    outline: none;
+    padding: .2rem .3rem;
+    margin-bottom: .4rem;
+    border-radius: 3px;
+    color: var(--primary);
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.admin-table-create-btn:hover{
+    background: var(--primary);
+    color: #fff;
+    transform: scale(1.06);
+}
+
+.admin-table-create-btn:active{
+    background: var(--primary);
+    color: #fff;
+    transform: scale(.99);
 }
