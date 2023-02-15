@@ -25,7 +25,7 @@ export default function AdminNav() {
         <div className='admin-nav-right'>
             <div className="admin-nav-profile">
                 <div className="admin-nav-profile-image">
-                    <img src={"https://thispersondoesnotexist.com/image"} alt="Profile image" />
+                    <img src={"/images/avatar.jpg"} alt="Profile image" />
                 </div>
                 <div className="admin-nav-profile-details">
                     <div className="admin-nav-profile-name">

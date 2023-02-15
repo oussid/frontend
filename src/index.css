@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
   margin: 0;
@@ -15,7 +9,13 @@
 
 :root {
     --primary: #6D813B;
+    --primary-click: #495728;
+    --primary-hover: #94ad55;
     --secondary: #E1BF55;
     --text: #3A3A3A ;
     --light-gray: rgb(180, 180, 180);
+    --light-bg: #F1F4F9;
+    --danger: rgb(187, 20, 20);
+    --danger-click: rgb(112, 12, 12);
+    --danger-hover: rgb(218, 24, 24);
 }

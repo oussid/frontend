@@ -1,0 +1,84 @@
+.admin-table{
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.admin-table table {
+    border-collapse: collapse;
+    padding: 1rem;
+
+}
+
+.admin-table thead{
+    background-color:  var(--light-bg);
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.admin-table td, th{
+    height: 2rem;
+    padding-inline: 1rem;
+}
+
+.admin-table tbody tr{
+    height: 3rem;
+}
+
+.admin-table tbody tr:not(:last-child){
+    border-bottom: var(--light-gray) solid 1px;
+}
+
+.admin-table tbody .admin-actions-column {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    gap: .5rem
+}
+
+.admin-table tbody .admin-actions-column button{
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: .3rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.admin-table tbody .admin-actions-column .edit-btn{
+    background-color: var(--primary);
+}
+
+.admin-table tbody .admin-actions-column .delete-btn{
+    background-color: var(--danger);
+}
+
+/* click */
+.admin-table tbody .admin-actions-column .delete-btn:active{
+    background-color: var(--danger-click);
+    transform: scale(0.98);
+    transition: 0s;
+}
+
+.admin-table tbody .admin-actions-column .edit-btn:active{
+    background-color: var(--primary-click);
+    transform: scale(0.98);
+    transition: 0s;
+}
+
+/* hover */
+.admin-table tbody .admin-actions-column .delete-btn:hover{
+    background-color: var(--danger-hover);
+}
+
+.admin-table tbody .admin-actions-column .edit-btn:hover{
+    background-color: var(--primary-hover);
+}
+
+.admin-table-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

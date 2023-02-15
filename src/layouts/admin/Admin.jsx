@@ -15,9 +15,6 @@ export default function Admin() {
 
             <div className="admin-main">
                 <Outlet/>
-                <div className="test">
-                    
-                </div>
             </div>
         </div>
     </div>
