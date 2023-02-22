@@ -1,0 +1,32 @@
+.admin-dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.admin-dashboard-recent{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.admin-dashboard-recent-left{
+    height: 100%;
+    height: 100%;
+}
+
+.admin-dashboard-recent table{
+    width: 100% ;
+    font-size: smaller;
+}
+
+td, th{
+    height: 2rem;
+    padding-inline: .3rem;
+}
+
+.admin-dashboard-recent-right{
+    height: 100%;
+    width: 100%;
+}

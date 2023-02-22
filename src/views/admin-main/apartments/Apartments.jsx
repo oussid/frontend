@@ -1,5 +1,5 @@
 import React from 'react'
-import AdminTable from '../../components/admin-table/AdminTable'
+import AdminTable from '../../../components/admin-table/AdminTable'
 
 export default function Apartments() {
   const apartements = [
@@ -117,9 +117,21 @@ export default function Apartments() {
   },
 ];
 
+
+const tableInfo = {
+  tableType: 'detailed',
+  upperTitle: '',
+  hasImgColumn: false,
+  button: {
+      text: "Ajouter",
+      type: "btn",
+      href: ""
+  }
+}
+
   return (
     <div className='admin-apartments'>
-      <AdminTable data={apartements}/>
+      <AdminTable data={apartements} info={tableInfo}/>
     </div>
   )
 }

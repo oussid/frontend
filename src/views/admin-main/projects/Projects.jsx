@@ -1,5 +1,5 @@
 import React from 'react'
-import AdminTable from '../../components/admin-table/AdminTable';
+import AdminTable from '../../../components/admin-table/AdminTable';
 
 export default function Projects() {
   const projets = [
@@ -94,10 +94,21 @@ export default function Projects() {
       appartements: 40
     }
   ];
+  
+  const tableInfo = {
+    tableType: 'detailed',
+    upperTitle: '',
+    hasImgColumn: false,
+    button: {
+        text: "Ajouter",
+        type: "btn",
+        href: ""
+    }
+  }
 
   return (
-    <div className='admin-projects'>
-    <AdminTable data={projets}/>
+    <div className='admin-projects' >
+    <AdminTable data={projets} info={tableInfo}/>
   </div>
   )
 }

@@ -3,7 +3,10 @@
     background-color: #fff;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    
+}
+
+ a{
+    text-decoration: none;
 }
 
 .admin-table table {
@@ -48,6 +51,11 @@
     transition: .3s;
 }
 
+.admin-table tbody .admin-actions-column button:active{
+    transform: scale(0.98);
+    transition: 0s;
+}
+
 .admin-table tbody .admin-actions-column .edit-btn{
     background-color: var(--primary);
 }
@@ -63,19 +71,23 @@
 /* click */
 .admin-table tbody .admin-actions-column .delete-btn:active{
     background-color: var(--danger-click);
-    transform: scale(0.98);
-    transition: 0s;
 }
 
 .admin-table tbody .admin-actions-column .edit-btn:active{
     background-color: var(--primary-click);
-    transform: scale(0.98);
-    transition: 0s;
+}
+
+.admin-table tbody .admin-actions-column .details-btn:active{
+    background-color: rgb(75, 74, 74);
 }
 
 /* hover */
 .admin-table tbody .admin-actions-column .delete-btn:hover{
     background-color: var(--danger-hover);
+}
+
+.admin-table tbody .admin-actions-column .details-btn:hover{
+    background-color: var(--light-gray);
 }
 
 .admin-table tbody .admin-actions-column .edit-btn:hover{
@@ -88,9 +100,10 @@
     justify-content: space-between;
 }
 
-.admin-table-create-btn{
+.admin-table-upper-btn{
     border: solid 2px var(--primary);
     outline: none;
+    background: none;
     padding: .2rem .3rem;
     margin-bottom: .4rem;
     border-radius: 3px;
@@ -100,13 +113,30 @@
     transition: .3s;
 }
 
-.admin-table-create-btn:hover{
+.admin-table-upper-link{
+    border: none;
+    outline: none;
+    background: none;
+    padding: .2rem .3rem;
+    margin-bottom: .2rem;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+}
+
+.admin-table-upper-btn:hover{
     background: var(--primary);
     color: #fff;
     transform: scale(1.06);
 }
 
-.admin-table-create-btn:active{
+.admin-table-upper-btn:active{
     background: var(--primary);
     color: #fff;
     transform: scale(.99);
